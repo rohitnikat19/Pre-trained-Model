@@ -1,30 +1,53 @@
-# Pre-trained-Model
-Lab Assignment 2 - Pre-trained Model
+# NLP-Preprocessing-And-Text-Classification
+Lab Assignment No. 4- NLP Preprocessing And Text Classificationsing)
 
-# Neural Network from Scratch
 
-## Overview
+## 1. Objective
+This assignment focuses on applying various Natural Language Processing (NLP) preprocessing techniques followed by building a text classification model using traditional machine learning algorithms.
 
-This project contains a Jupyter Notebook implementing core components of a neural network using NumPy. It includes fundamental concepts such as activation functions, forward propagation, backpropagation, and basic network training—all from scratch, without high-level deep learning libraries.
+## 2. Problem Definition
+- **Dataset**: A collection of labeled text samples.
+- **Task**: Perform preprocessing and classify the text into predefined categories.
+- **Approach**: Use standard NLP techniques like tokenization, stopword removal, and vectorization (e.g., TF-IDF) followed by training a machine learning model such as Logistic Regression or Naive Bayes.
 
-## Features
+## 3. Methodology
 
-- Implementation of the **Sigmoid** activation function.
-- Derivation and computation of the **Sigmoid derivative**.
-- Forward and backward propagation routines.
-- Manual weight updates using gradient descent.
-- Basic end-to-end neural network training logic.
-- Educational focus for understanding how neural networks work internally.
+### NLP Preprocessing Steps
+- Convert text to lowercase
+- Remove special characters and punctuation
+- Remove stopwords
+- Tokenization
+- Stemming or Lemmatization
 
-## Requirements
+### Feature Extraction
+- Use TF-IDF or CountVectorizer to convert text into numerical vectors
 
-- Python 3.7 or above
-- NumPy
-- Jupyter Notebook or Jupyter Lab
+### Classification
+- Train a classifier such as:
+  - Logistic Regression
+  - Multinomial Naive Bayes
+  - Support Vector Machine (SVM)
 
-## Installation
+### Evaluation
+- Metrics used: Accuracy, Precision, Recall, F1-Score
+- Confusion Matrix and classification report
 
-Install the required dependencies using:
+## 4. Tools & Libraries Used
+- Python  
+- NLTK / spaCy  
+- scikit-learn  
+- Pandas  
+- Matplotlib / Seaborn
 
-```bash
-pip install numpy jupyter
+## 5. Results
+- Preprocessing successfully applied to all text samples
+- Classifier achieved good accuracy on test data
+- Evaluation metrics and confusion matrix visualized
+
+---
+
+## Declaration
+I, **Rohit Nikat**, confirm that the work submitted in this assignment is my own and has been completed following academic integrity guidelines. The code is uploaded on my GitHub repository account, and the repository link is provided below:
+
+
+
